@@ -1,0 +1,125 @@
+@media (max-width: 700px) {
+    #info,
+    #opening-hours {
+        font-size: 0.5rem;
+    }
+}
+
+#fill {
+    height: 100%;
+    width: auto;
+    max-height: 64px;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header {
+    background: #fdfef1;
+    border-bottom: 1px solid #fff;
+}
+
+.header-logo {
+    height: 80px;
+    width: auto;
+}
+
+.header-img {
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.header-subtitle {
+    font-size: 1.2rem;
+    color: #575354;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+.rampart-one-regular {
+    font-family: 'Rampart One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #3f3f30;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.header-bottom {
+    height: 80px;
+}
+
+#meny {
+    text-align: center;
+    margin-top: 2.5rem;
+    color: #575354;
+}
+
+.navbar {
+    margin-right: 1rem;
+}
+
+main {
+    background-color: #fdfef1;
+}
+
+.fot {
+    min-height: 250px;
+    background-color: #523a27;
+    color: azure;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+#opening-hours,
+#info {
+    flex-basis: 30%;
+    padding-top: 1.5rem;
+}
+
+#opening-hours {
+    margin-left: 0.5rem;
+}
+
+#info {
+    text-align: right;
+    margin-right: 0.5rem;
+}
+
+.footer-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo-footer {
+    max-width: 80px;
+    margin-bottom: 1.5rem;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-icons svg {
+    width: 24px;
+    height: 24px;
+    color: azure;
+    transition: color 0.2s;
+}
+
+.footer-icons a:hover svg {
+    color: #f7c873;
+}
+
+/* CSS validerad 2025-09-19 JV
